@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+
+.profile-page {
+   background-image: url(http://d13pix9kaak6wt.cloudfront.net/background/arrowgunz_1307060722_07.jpg);
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   height: 700px;
+   font-family: "Segoe UI", Tahoma, Helvetica, Verdana, sans-serif;
+   font: normal 1em ;
+   color: #fff;
+}
+
+.name {
+   font-size: 40pt;
+}
+
+#info {
+   width: 700px;
+   height: 300px;
+   position: absolute;
+   left: 40px;
+   top: 60px;
+   background-color: #000;
+   -moz-border-radius:6px;
+   -webkit-border-radius:6px;
+   border-radius:6px;
+   /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+   -moz-box-shadow:0px 0px 14px #000000;
+   -webkit-box-shadow:0px 0px 14px #000000;
+   box-shadow:0px 0px 14px #000000;
+   /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+   opacity:0.5;
+   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+   /*-ms-filter must come before filter*/
+   filter: alpha(opacity=50);
+   /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+   /*All filters must be placed together*/
+   padding: 20px 20px;
+}
+
+img {
+   border: none;
+}
+
+#social-links {
+   width: 700px;
+   position: absolute;
+   left: 10px;
+   top: 320px;
+   padding: 20px 20px;
+}
+
+#share {
+   background-color: #f0f0f0;
+   -moz-border-radius:6px;
+   -webkit-border-radius:6px;
+   border-radius:6px;
+   width: 700px;
+   position: absolute;
+   left: 40px;
+   top: 440px;
+   opacity:0.85;
+   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+   /*-ms-filter must come before filter*/
+   filter: alpha(opacity=85);
+   /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+   /*All filters must be placed together*/
+   padding: 20px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: normal;
+}
+
+hr {
+   color: #fff;
+   border: 1px solid #fff;
+}
+
+ul, ul li {
+   list-style: none;
+   list-style-type: none;
+   display: inline;
+   margin-right: 5px;
+}
